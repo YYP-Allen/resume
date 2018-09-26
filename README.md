@@ -1,3 +1,5 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
 # 阳亚平的求职简历
 
 联系方式：188-0752-7530
