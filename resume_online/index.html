@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://at.alicdn.com/t/font_1017947_77r5nq6xusx.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>个人简历</title>
+</head>
+<body>
+  <div class="container layout clearfix">
+    <div class="aside">
+      <div class="user">
+        <h1>阳亚平</h1>
+        <P>应聘前端工程师</P>
+      </div>
+      <div class="contact">
+        <ul>
+          <li><span class="iconfont icon-email"></span>1519327651@qq.com</li>
+          <li><span class="iconfont icon-phone"></span>188-0752-7530</li>
+          <li><span class="iconfont icon-experience"></span>有前端项目经验</li>
+          <li><span class="iconfont icon-english"></span>CET-4</li>
+          <li><span class="iconfont icon-education"></span>大学本科</li>
+        </ul>
+      </div>
+      <div class="skills">
+        <h2>我的技能</h2>
+        <dl>
+          <dt>HTML5/CSS3</dt>
+          <dd>
+            <span class="level" style="width: 83%"></span>
+          </dd>
+          <dt>JavaScript/ES6</dt>
+          <dd>
+            <span class="level" style="width: 80%"></span>
+          </dd>
+          <dt>Vue/Vue Cli/Vue-router/Vuex</dt>
+          <dd>
+            <span class="level" style="width: 75%"></span>
+          </dd> 
+          <dt>Webpack/Babel/Parcel/Npm Script</dt>
+          <dd>
+            <span class="level" style="width: 60%"></span>
+          </dd>      
+        </dl>  
+      </div>
+      <div class="others">
+        <h2>其他</h2>
+        <ul>
+          <li>
+            <span class="iconfont icon-blog"></span>
+            <a href="https://www.jianshu.com/u/7bc089b41e0b">简书</a>
+          </li>
+          <li>
+            <span class="iconfont icon-github"></span>
+            <a href="https://github.com/YYP-Allen">Github</a>
+          </li>
+          <li>
+            <span class="iconfont icon-codepen"></span>
+            <a href="https://codepen.io/yyp-allen">Codepen</a>
+          </li>  
+          </ul>
+      </div>
+    </div>
+    <div class="main">
+      <div class="intro clearfix">
+        <img src="./wechat.jpeg" alt="wechat">
+        <p>在过去一年有自学前端项目开发经验。熟悉原生JavaScript，ES6知识点： <b>作用域链</b>、<b>同源、跨域</b>(JSONP CROS)、<b>AJAX</b>、<b>原型</b>、<b>this与继承</b>、<b>异步操作 Promise</b>、赋值结构、<b>jquery</b>。熟悉HTML5、CSS3:如 <b>HTML标签语义化</b>，<b>CSS居中</b>、<b>CSS浮动布局</b>， <b>flex布局</b>，<b>媒体查询</b>。熟悉Vue框架： 熟悉 Vue 常用功能及指令，理解<b>生命周期钩子</b>、<b>组件</b>、能够使用 <b>Vue 全家桶</b>开发项目。熟练使用 VsCode、Git、iterm等开发工具。熟悉模块化、工程化开发流程，了解Webpack。</p>
+      </div>
+      <div class="edu">
+        <h2>教育经历</h2>
+        <!-- <span class="timebar">09/2011-06/2015</span> -->
+        <div class="detail">
+          <h3>邵阳学院(2011/09-2015/05)</h3>
+          <ul>
+            <li>材料成型及控制专业</li>
+          </ul>
+        </div>
+      </div>
+      <div class="projects clearfix">
+        <h2>个人项目</h2>
+        <!-- <span class="timebar">2020</span> -->
+          <div class="detail">
+            <h3>Blog share platform</h3>
+            <ul>
+              <li>项目介绍： 一个博客分享平台，主要功能有用户登录、注册、账户注销、创建以及删除博客、修改博客。</li>
+              <li>功能实现： 使用Vue CLI 脚手架创建项目模版，使用Vuex管理用户的登录信息；通过 axios与ES6 promise相结获取数据，并实现接口的封装；通过 vuex对用各个组件都需要用到的用户信息进行管理；通过Vue-router路由的动态路由、路由传参、路由的编程式导航、路由重定向、守卫导航等对象路由的管理;通过Vue插件的形式改变 my页面 的日期显示格式</li>
+              <li>技术栈：JavaScript、ES6、Vue、Vuex、Vue-router、elementUI、axios、HTML5、CSS3、flex</li>
+              <a href="https://github.com/YYP-Allen/blog-share-platform/tree/master">项目源码</a>
+              <a href="https://yyp-allen.github.io/blog-share-platform/#/">预览项目</a>
+              <!-- <li></li><a href="https://github.com/YYP-Allen/blog-share-platform/tree/master">项目源码</a></li>
+              <li><a href="https://yyp-allen.github.io/blog-share-platform/#/">预览项目</a></li> -->
+            </ul>
+          </div>
+          <!-- <span class="timebar">2020</span> -->
+          <div class="detail">
+            <h3>vue技术栈实现cnode社区</h3>
+            <ul>
+              <li>项目介绍：一个简易的cnode社区，主要包括：首页用户最近上传、帖子回复数/浏览数,以及最后回复的时间、单个帖子详情、具体用户信息</li>
+              <li>功能实现： 使用Vue CLI 脚手架创建项目模版，通过 Vue Router 实现路由之间的的跳转，用 Axios 获取用户数据，用过过滤器改变日期显示格式。不通过第三方库，实现翻页组件</li>
+              <li>技术栈：JavaScript、ES6、Jquery、Vue、axios、Vue-router、vue-cli脚手架工具、CSS3、HTML5、flex布局</li>
+              <a href="https://github.com/YYP-Allen/cnode/tree/master">项目源码</a>
+              <a href="https://yyp-allen.github.io/cnode/#/">预览项目</a>
+            </ul>
+          </div>
+          <!-- <span class="timebar">2020</span> -->
+          <div class="detail">
+            <h3>Fun-Fun-Radio</h3>
+            <ul>
+              <li>项目介绍： 一个网页music box。主要功能使用了jquery：专辑内(同一个主题)中音乐的自动播放，播放，暂停，下一曲，以及下一曲自动播放；音乐播放进度条与播放时间的显示；音乐专辑的轮播切换;歌词的显示与动态效果。分装了一个EventCenter功能，链接musicPage 的main与 footer两个部分，达到两部分之间功能的解耦。布局方面： flex弹性布局，且基本的单位都使用vh，能很好的适用大屏，使用animate.css实现歌词的动效</li>
+              <li>功能实现： 一个网页music box。主要功能使用了jquery：专辑内(同一个主题)中音乐的自动播放，播放，暂停，下一曲，以及下一曲自动播放；音乐播放进度条与播放时间的显示；音乐专辑的轮播切换;歌词的显示与动态效果。分装了一个EventCenter功能，链接musicPage 的main与 footer两个部分，达到两部分之间功能的解耦。布局方面： flex弹性布局，且基本的单位都使用vh，能很好的适用大屏，使用animate.css实现歌词的动效</li>
+              <li>技术栈：JavaScript、Jquery、HTML5，CSS3、animate.css、@media媒体查询、flex</li>
+              <a href="https://github.com/YYP-Allen/Fun-Fun-Radio">项目源码</a>
+              <a href="https://yyp-allen.github.io/Fun-Fun-Radio/index.html">预览项目</a>
+            </ul>
+          </div>
+          <!-- <span class="timebar">2020</span> -->
+      </div>
+      <div class="job">
+        <h2 >最近一份工作经历</h2> 
+        <div class="detail">
+            <h3>深圳中恩普科技(2018.09-2020.5)-跨境电商专员</h3>
+            <ul>
+              <li>工作职责：商品上下架、物流发货、售后处理、客户回访(邮件)、样品带看</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

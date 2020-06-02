@@ -1,0 +1,199 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: green;
+}
+/* common css */
+.layout {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear:both;
+}
+/* .timebar {
+  font-size: 14px;
+  width: 140px;
+  line-height:20px;
+  border: 1px solid;
+  text-align: center;
+  background-color: #000;
+  color:#fff;
+  border-radius: 20px;
+  float: left;
+  margin-top: 5px;
+}  */
+.detail {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+/* page css */
+body {
+  font: 16px/1.5 STKaiti,Simsun,"Microsoft YaHei",SimHei,Arial;
+  color:#333;
+}
+.container {
+  background-color: #eee;
+  padding: 30px 20px 0 0;  
+}
+.aside {
+  float: left;
+  width: 280px;
+}
+.user > h1::after {
+  content: '';
+  display: block;
+  width: 80px;
+  border-top:2px solid #d6d6d6;
+  margin: 16px auto;
+}
+.asde > .user > h1 {
+  font-size: 40px;
+}
+.aside > .user {
+  text-align: center;
+  padding: 30px 0 20px 0;
+}
+.aside > .user::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width:20px 140px 20px 140px;
+  border-color: #d6d6d6 #d6d6d6 transparent transparent;
+  margin-top: 20px;
+}
+.aside > .user > p {
+  margin-top: 20px;
+}
+.aside > .contact li,
+.aside > .others li {
+  border-bottom: 1px solid #d6d6d6;
+  list-style:none;
+  line-height: 40px;
+}
+.aside > .contact .iconfont,
+.aside >.others .iconfont {
+  border-right: 1px solid #d6d6d6;
+  padding-right: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  color: #77bbaa;
+  display:inline-block;
+  font-size: 20px;
+}
+.aside ul {
+  padding: 20px;
+}
+.aside .skills {
+  background-color: #7bbaaa;
+  color:#fff;
+  padding: 20px;
+}
+.aside dt {
+  color: #eee;
+  margin-top: 20px;
+}
+.aside dd > .level {
+  border-radius: 2px;
+  display:block;
+  height:3px;
+  background-color: #fff;
+}
+.aside .skills dd {
+  margin-top: 10px;
+  height: 3px;
+  background-color: #74c5b5;
+  border-radius: 2px;
+}
+.aside .others h2 {
+  margin: 20px 0 0 20px;
+}
+.main .intro > p {
+  margin-left: 140px;
+}
+.main .intro {  
+  overflow: hidden;
+}
+/* .main .edu 不清除浮动效果与预期一样，清除浮动还必须加上overflow:hidden;*/
+/* 形成BFC，不然就会放置于aside下面 */
+.main  {
+  padding: 30px;
+  background-color: #fff;
+  margin-left: 280px;
+}
+.main .intro img {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 30px;
+}
+.main > .edu h2,
+.main > .projects h2,
+.main > .job h2 {
+  font-size: 40px;
+  color:#d9d9d9;
+  text-align: center;
+  margin-top: 30px;
+}
+.main > .edu h3,
+.main > .projects h3,
+.main > .job h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.main > .edu ul,
+.main > .projects ul,
+.main > .job ul {
+  margin-left: 28px;
+}
+.main .detail {
+  padding-left:30px;
+  border-left: 1px solid #eee;
+}
+.main .detail > h3::before {
+  display: inline-block;
+  height:7px;
+  width:7px;
+  border-radius:7px;
+  border:2px solid #7bbaaa;
+  content:'';
+  position: relative;
+  left: -36px;
+}
+.main > .job {
+  margin-top: -30px;
+}
+/* 调节打印的样式 */
+@media print {
+  .aside {
+    width: 200px;
+  }
+  .main {
+    margin-left: 200px;
+  }
+  .aside .user::after {
+  border-right-width: 100px;
+  border-left-width: 100px;
+}
+  .pill {
+    display: none;
+  }
+
+  .section .more {
+    margin-left: 20px;
+  }
+
+  .wrapper {
+    margin: 0;
+  }
+}
+
