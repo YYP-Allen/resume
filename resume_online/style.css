@@ -175,10 +175,10 @@ body {
 /* 调节打印的样式 */
 @media print {
   .aside {
-    width: 200px;
+    width: 220px;
   }
   .main {
-    margin-left: 200px;
+    margin-left: 220px;
   }
   .aside .user::after {
   border-right-width: 100px;
