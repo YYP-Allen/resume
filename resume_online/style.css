@@ -180,6 +180,9 @@ body {
   .main {
     margin-left: 220px;
   }
+  .contact li:first-child {
+    font-size: 12px;
+  }
   .aside .user::after {
   border-right-width: 100px;
   border-left-width: 100px;
