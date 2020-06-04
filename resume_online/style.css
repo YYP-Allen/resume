@@ -169,9 +169,9 @@ body {
   position: relative;
   left: -36px;
 }
-.main > .job {
-  margin-top: -30px;
-}
+/* .main > .job {
+  margin-top: 0;
+} */
 /* 调节打印的样式 */
 @media print {
   .aside {
