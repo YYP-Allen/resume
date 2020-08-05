@@ -103,8 +103,8 @@ main .highLight {
   border-radius: 3px;
   background: #efefef
 }
-/*@media (max-width: 768px) {*/
-/*  aside {*/
-/*    width: 100%;*/
-/*  }*/
-/*}*/
+@media (max-width: 768px) {
+  aside {
+    width: 100%;
+  }
+}
