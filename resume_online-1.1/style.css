@@ -103,6 +103,7 @@ main .highLight {
   border-radius: 3px;
   background: #efefef
 }
+/* 打印的时候把下面的代码注释掉 */
 @media (max-width: 768px) {
   aside {
     width: 100%;
